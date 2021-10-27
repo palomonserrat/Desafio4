@@ -237,3 +237,19 @@ footer .footerContenedor {
     .aboutUsContenedor .verde img {
       width: 1000px;
       height: auto; }
+
+.formularios {
+  background-color: #facacd;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 41px; }
+  .formularios h2 {
+    color: #fc7289;
+    padding-left: 75px; }
+  .formularios .btn {
+    background-color: #fc7289;
+    color: #facacd;
+    border: #fc7289; }
+    .formularios .btn:hover {
+      background-color: #a6d0eb;
+      color: #fc7289; }

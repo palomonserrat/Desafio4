@@ -1,0 +1,22 @@
+.formularios{
+    background-color: #facacd;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 41px;
+
+    h2{
+        color: #fc7289;
+        padding-left: 75px;
+    }
+
+    .btn{
+        background-color: #fc7289;
+        color: #facacd;
+        border: #fc7289;
+
+        &:hover{
+            background-color: #a6d0eb;
+            color: #fc7289;
+        }
+    }
+}
