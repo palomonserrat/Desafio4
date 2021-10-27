@@ -1,0 +1,72 @@
+.aboutUsContenedor{
+    width: 90%;
+    height: 1900px;
+    padding-top: 55px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "header header header header"
+    "main main empy empy"
+    "footer footer footer footer";
+    margin: auto;
+
+    h2{
+        text-align: center;
+        padding: 40px;
+        color: rgb(0, 0, 0);
+        text-transform: capitalize;
+    }
+
+    p{
+        color:black;
+        padding: 35px;
+        font-size: 20px;
+    }
+    
+    img{
+        width: 1200px;
+        display: block;
+        margin: auto;
+        padding-top: 35px;
+    }
+
+    .hijo{
+        border: solid 1px black;
+        padding: 5px;
+        border-radius: 20px;
+        margin: 5px;
+    }
+
+    .azul{
+        background-color:#a6d0eb;
+        grid-area: header;
+    }
+    
+    .rosa{
+        background-color: #fc7289;
+        grid-area: main;
+
+        img{
+            height: auto;
+            width: 100px;
+        }
+    }
+    
+    
+    .violeta{
+        background-color:  #c21090;
+        grid-area: empy;
+    }
+    
+    
+    .verde{
+        background-color:#397f47;
+        grid-area: footer;
+
+        img{
+            width: 1000px;
+            height: auto;
+        }
+    }
+}
