@@ -108,7 +108,8 @@ h2 {
     .mainIndex .fondo1 h3 {
       font-family: 'Sen', sans-serif;
       font-size: 17px;
-      text-align: center; }
+      text-align: center;
+      text-transform: capitalize; }
 
 .row .column {
   float: left;
@@ -182,7 +183,8 @@ footer .footerContenedor {
     .contenedorBooks .fondo1 h3 {
       font-family: 'Sen', sans-serif;
       font-size: 17px;
-      text-align: center; }
+      text-align: center;
+      text-transform: capitalize; }
 
 .books h2 {
   font-size: 55px;
@@ -193,7 +195,7 @@ footer .footerContenedor {
 
 .aboutUsContenedor {
   width: 90%;
-  height: 1900px;
+  height: 1800px;
   padding-top: 55px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -235,8 +237,10 @@ footer .footerContenedor {
     background-color: #397f47;
     grid-area: footer; }
     .aboutUsContenedor .verde img {
-      width: 1000px;
-      height: auto; }
+      width: 1250px;
+      height: auto;
+      display: block;
+      align-self: center; }
 
 .formularios {
   background-color: #facacd;
@@ -253,3 +257,10 @@ footer .footerContenedor {
     .formularios .btn:hover {
       background-color: #a6d0eb;
       color: #fc7289; }
+
+h2 {
+  margin-left: 25px; }
+
+.accordion {
+  width: 90%;
+  margin-bottom: 35px; }

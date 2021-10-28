@@ -1,6 +1,6 @@
 .aboutUsContenedor{
     width: 90%;
-    height: 1900px;
+    height: 1800px;
     padding-top: 55px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -65,8 +65,10 @@
         grid-area: footer;
 
         img{
-            width: 1000px;
+            width: 1250px;
             height: auto;
+            display: block;
+            align-self: center;
         }
     }
 }
