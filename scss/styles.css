@@ -264,3 +264,98 @@ h2 {
 .accordion {
   width: 90%;
   margin-bottom: 35px; }
+
+.contenedorBlog {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto; }
+  .contenedorBlog .cuadro, .contenedorBlog .cuadro2 {
+    background-color: #facadf;
+    border-radius: 14px;
+    padding-left: 200px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px; }
+    .contenedorBlog .cuadro .cuadro__titulo, .contenedorBlog .cuadro2 .cuadro__titulo {
+      font-size: 1.5rem;
+      margin-bottom: 20px; }
+    .contenedorBlog .cuadro .cuadro__parrafo, .contenedorBlog .cuadro2 .cuadro__parrafo {
+      line-height: 28px;
+      font-size: 1rem; }
+  .contenedorBlog .cuadro2 {
+    background-color: #fabe04; }
+    .contenedorBlog .cuadro2 .cuadro2__img {
+      width: 250px;
+      height: auto;
+      margin-right: 30px; }
+    .contenedorBlog .cuadro2 .boton {
+      height: 60px;
+      padding: 20px;
+      background-color: #fc7289;
+      color: white;
+      display: inline-block;
+      text-decoration: none; }
+    .contenedorBlog .cuadro2 a {
+      text-decoration: none; }
+      .contenedorBlog .cuadro2 a:hover {
+        font-weight: bold; }
+
+.contenedorFirstBook, .contenedorWrite {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto; }
+  .contenedorFirstBook .firstBook, .contenedorWrite .firstBook {
+    background-color: #9ec52e;
+    border-radius: 14px;
+    border: 3px black solid;
+    padding: 20px;
+    margin-bottom: 50px; }
+    .contenedorFirstBook .firstBook .firstBook__titulo, .contenedorWrite .firstBook .firstBook__titulo {
+      font-size: 1.5rem;
+      margin-bottom: 20px; }
+    .contenedorFirstBook .firstBook .firstBook__parrafo, .contenedorWrite .firstBook .firstBook__parrafo {
+      line-height: 28px;
+      font-size: 1rem; }
+    .contenedorFirstBook .firstBook .firstBook__imagen, .contenedorWrite .firstBook .firstBook__imagen {
+      width: 250px;
+      height: auto; }
+
+.contenedorWrite .write {
+  background-color: #a3e5ff;
+  border-radius: 14px;
+  border: 3px black solid;
+  padding: 20px;
+  margin-bottom: 50px; }
+  .contenedorWrite .write .write__titulo {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    margin-top: 20px; }
+  .contenedorWrite .write .write__parrafo {
+    line-height: 28px;
+    font-size: 1rem; }
+
+.contenedorBox {
+  height: 350px;
+  width: 350px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
+  border: solid black 3px;
+  background-color: #397f47;
+  display: flex;
+  display: inline-block; }
+
+.contenedorBox2 {
+  height: 350px;
+  width: 350px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
+  border: solid black 3px;
+  background-color: #397f47;
+  display: flex;
+  display: inline-block; }

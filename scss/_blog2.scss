@@ -1,0 +1,90 @@
+
+.contenedorFirstBook{
+    max-width: 1000px;
+	width: 90%;
+	margin: 0 auto;
+
+    .firstBook{
+        background-color: #9ec52e;
+        border-radius: 14px;
+        border: 3px black solid;
+        padding: 20px;
+        margin-bottom: 50px;
+
+        .firstBook__titulo {
+            font-size:1.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .firstBook__parrafo {
+            line-height: 28px;
+            font-size:1rem;
+        }
+
+        .firstBook__imagen{
+            width: 250px;
+            height: auto;
+        }
+
+    }
+}
+
+.contenedorWrite{
+    
+    @extend .contenedorFirstBook;
+
+    .write{
+        background-color: #a3e5ff;
+        border-radius: 14px;
+        border: 3px black solid;
+        padding: 20px;
+        margin-bottom: 50px;
+
+        .write__titulo {
+            font-size:1.5rem;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+        
+        .write__parrafo {
+            line-height: 28px;
+            font-size:1rem;
+        }
+
+    }
+}
+
+@mixin sizes ($width, $height){
+    height: $height;
+    width: $width;
+}
+
+.contenedorBox{
+    @include sizes(350px,350px ); 
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    border: solid black 3px;
+    background-color: #397f47;
+    display: flex;
+    display: inline-block;
+    
+}
+
+.contenedorBox2{
+    @include sizes(350px,350px ); 
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    border: solid black 3px;
+    background-color: #397f47;
+    display: flex;
+    display: inline-block;
+
+
+    
+}
+
+
