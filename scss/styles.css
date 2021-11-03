@@ -46,7 +46,7 @@ h2 {
 .morkBookstoreTitulo {
   font-family: 'Pridi', serif;
   color: #024672;
-  font-size: 4rem;
+  font-size: 1.5rem;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -67,7 +67,7 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   height: auto;
-  width: 250px;
+  width: 75px;
   margin-bottom: 20px; }
 
 .carousel {
@@ -78,7 +78,7 @@ h2 {
 .mainIndex {
   display: flex; }
   .mainIndex h2 {
-    font-size: 55px;
+    font-size: 28px;
     margin-left: 45px;
     margin-top: 25px;
     letter-spacing: 3px;
@@ -93,21 +93,21 @@ h2 {
     margin: 10px;
     padding: 10px; }
     .mainIndex .tamaño img {
-      width: 200px;
+      width: 120px;
       height: auto;
       padding: 5px;
-      padding-left: 50px; }
+      padding: auto; }
   .mainIndex .fondo1 {
     background-color: #a6d0eb;
     border: solid black;
     border-radius: 14%;
     display: inline-block;
     margin: 35px;
-    width: 275px;
+    width: 150px;
     height: auto; }
     .mainIndex .fondo1 h3 {
       font-family: 'Sen', sans-serif;
-      font-size: 17px;
+      font-size: 12px;
       text-align: center;
       text-transform: capitalize; }
 
@@ -163,8 +163,7 @@ footer .footerContenedor {
 .contenedorBooks {
   background-color: #facacd;
   border-radius: 41px;
-  border: black solid 2px;
-  margin: 30px; }
+  border: black solid 2px; }
   .contenedorBooks .contenedor {
     display: flex;
     flex-wrap: wrap;
@@ -174,17 +173,17 @@ footer .footerContenedor {
     margin: 10px;
     padding: 10px; }
     .contenedorBooks .tamaño img {
-      width: 200px;
+      width: 120px;
       height: auto;
       padding: 5px;
-      padding-left: 50px; }
+      padding: auto; }
   .contenedorBooks .fondo1 {
     background-color: #a6d0eb;
     border: solid black;
     border-radius: 14%;
     display: inline-block;
     margin: 35px;
-    width: 275px;
+    width: 150px;
     height: auto; }
     .contenedorBooks .fondo1 h3 {
       font-family: 'Sen', sans-serif;
@@ -395,6 +394,22 @@ h2 {
     width: 190px;
     height: auto;
     padding: auto; }
+  .bestSellers .fondo1 {
+    width: 220px; }
   .row .column {
     width: 25%;
     padding: 20px; } }
+
+.contenedorBooks h2 {
+  font-size: 3rem; }
+
+.contenedorBooks h3 {
+  font-size: 15px; }
+
+.contenedorBooks .tamaño img {
+  width: 190px;
+  height: auto;
+  padding: auto; }
+
+.contenedorBooks .fondo1 {
+  width: 220px; }

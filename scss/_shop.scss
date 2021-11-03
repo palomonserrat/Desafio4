@@ -5,7 +5,7 @@
     background-color: #facacd;
     border-radius: 41px;
     border: black solid 2px;
-    margin: 30px;
+    
 
     .contenedor{
         display: flex;
@@ -19,10 +19,10 @@
         padding: 10px;
 
         img{
-            width: 200px;
+            width: 120px;
             height: auto;
             padding: 5px;
-            padding-left: 50px;
+            padding: auto;
         }
     }
 
@@ -32,7 +32,7 @@
         border-radius: 14%;
         display: inline-block;
         margin: 35px;
-        width: 275px;
+        width: 150px;
         height: auto;
 
         h3{
