@@ -177,7 +177,7 @@ footer{
     .footerContenedor{
         background-color: rgb(131, 180, 152);
         font-family: 'Sen', sans-serif;
-        height: 75px;
+        height: 105px;
         border-radius: 20px;
         display: flex;
         justify-content: center;
@@ -187,20 +187,40 @@ footer{
             width: 33%;
             text-align: center;
 
+
             .footerDiv__titulo{
                 font-size: 14px;
+                padding-top: 12px;
             }
 
             .footerDiv__link{
                 text-decoration: none;
                 color: black;
                 font-size: 12px;
+                padding-top: 12px;
+
 
                 &:hover{
                     color: #024672;
                     font-weight: bold;
                 }
             }
+
+            .footerDiv__img{
+
+                .footerDiv__redes{
+                    width: 32px;
+
+                    &:hover{
+                        width: 38px;
+                    }
+                }
+                
+            }
+
         }
+
+        
     }
 }
+
