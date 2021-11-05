@@ -1,6 +1,6 @@
 .aboutUsContenedor{
     width: 90%;
-    height: 1800px;
+    height: 1200px;
     padding-top: 55px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -10,25 +10,20 @@
     "main main empy empy"
     "footer footer footer footer";
     margin: auto;
+    
 
     h2{
         text-align: center;
-        padding: 40px;
+        font-size: 25px;
+        padding-top: 10px;
         color: rgb(0, 0, 0);
         text-transform: capitalize;
     }
 
     p{
         color:black;
-        padding: 35px;
-        font-size: 20px;
-    }
-    
-    img{
-        width: 1200px;
-        display: block;
-        margin: auto;
-        padding-top: 35px;
+        padding: 5px;
+        font-size: 18px;
     }
 
     .hijo{
@@ -46,11 +41,6 @@
     .rosa{
         background-color: #fc7289;
         grid-area: main;
-
-        img{
-            height: auto;
-            width: 100px;
-        }
     }
     
     
@@ -59,16 +49,18 @@
         grid-area: empy;
     }
     
-    
     .verde{
         background-color:#397f47;
         grid-area: footer;
 
         img{
-            width: 1250px;
+            width: 400px;
             height: auto;
             display: block;
+            padding-top: 7px;
             align-self: center;
+            display: block;
+            margin: auto;
         }
     }
 }

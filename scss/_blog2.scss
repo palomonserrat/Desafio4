@@ -61,7 +61,7 @@
 
 .contenedorBox{
     @include sizes(350px,350px ); 
-    margin-left: 20px;
+    margin-left: 15%;
     margin-bottom: 20px;
     padding: 10px;
     text-align: center;
@@ -74,7 +74,7 @@
 
 .contenedorBox2{
     @include sizes(350px,350px ); 
-    margin-left: 20px;
+    margin-left: 15%;
     margin-bottom: 20px;
     padding: 10px;
     text-align: center;
@@ -82,9 +82,6 @@
     background-color: #397f47;
     display: flex;
     display: inline-block;
-
-
-    
 }
 
 

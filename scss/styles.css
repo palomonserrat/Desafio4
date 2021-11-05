@@ -75,29 +75,29 @@ h2 {
   border-radius: 38%;
   margin-top: 25px; }
 
-.mainIndex {
+.mainBooks {
   display: flex; }
-  .mainIndex h2 {
+  .mainBooks h2 {
     font-size: 28px;
     margin-left: 45px;
     margin-top: 25px;
     letter-spacing: 3px;
     color: #397f47; }
-  .mainIndex .contenedor {
+  .mainBooks .contenedor {
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center; }
-  .mainIndex .tamaño {
+  .mainBooks .tamaño {
     margin: 10px;
     padding: 10px; }
-    .mainIndex .tamaño img {
+    .mainBooks .tamaño img {
       width: 120px;
       height: auto;
       padding: 5px;
       padding: auto; }
-  .mainIndex .fondo1 {
+  .mainBooks .fondo1 {
     background-color: #a6d0eb;
     border: solid black;
     border-radius: 14%;
@@ -105,7 +105,7 @@ h2 {
     margin: 35px;
     width: 150px;
     height: auto; }
-    .mainIndex .fondo1 h3 {
+    .mainBooks .fondo1 h3 {
       font-family: 'Sen', sans-serif;
       font-size: 12px;
       text-align: center;
@@ -160,47 +160,9 @@ footer .footerContenedor {
       footer .footerContenedor .footerDiv .footerDiv__img .footerDiv__redes:hover {
         width: 38px; }
 
-.contenedorBooks {
-  background-color: #facacd;
-  border-radius: 41px;
-  border: black solid 2px; }
-  .contenedorBooks .contenedor {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center; }
-  .contenedorBooks .tamaño {
-    margin: 10px;
-    padding: 10px; }
-    .contenedorBooks .tamaño img {
-      width: 120px;
-      height: auto;
-      padding: 5px;
-      padding: auto; }
-  .contenedorBooks .fondo1 {
-    background-color: #a6d0eb;
-    border: solid black;
-    border-radius: 14%;
-    display: inline-block;
-    margin: 35px;
-    width: 150px;
-    height: auto; }
-    .contenedorBooks .fondo1 h3 {
-      font-family: 'Sen', sans-serif;
-      font-size: 17px;
-      text-align: center;
-      text-transform: capitalize; }
-
-.books h2 {
-  font-size: 55px;
-  margin-left: 45px;
-  margin-top: 25px;
-  letter-spacing: 3px;
-  color: #397f47; }
-
 .aboutUsContenedor {
   width: 90%;
-  height: 1800px;
+  height: 1200px;
   padding-top: 55px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -209,18 +171,14 @@ footer .footerContenedor {
   margin: auto; }
   .aboutUsContenedor h2 {
     text-align: center;
-    padding: 40px;
+    font-size: 25px;
+    padding-top: 10px;
     color: black;
     text-transform: capitalize; }
   .aboutUsContenedor p {
     color: black;
-    padding: 35px;
-    font-size: 20px; }
-  .aboutUsContenedor img {
-    width: 1200px;
-    display: block;
-    margin: auto;
-    padding-top: 35px; }
+    padding: 5px;
+    font-size: 18px; }
   .aboutUsContenedor .hijo {
     border: solid 1px black;
     padding: 5px;
@@ -232,9 +190,6 @@ footer .footerContenedor {
   .aboutUsContenedor .rosa {
     background-color: #fc7289;
     grid-area: main; }
-    .aboutUsContenedor .rosa img {
-      height: auto;
-      width: 100px; }
   .aboutUsContenedor .violeta {
     background-color: #c21090;
     grid-area: empy; }
@@ -242,10 +197,13 @@ footer .footerContenedor {
     background-color: #397f47;
     grid-area: footer; }
     .aboutUsContenedor .verde img {
-      width: 1250px;
+      width: 400px;
       height: auto;
       display: block;
-      align-self: center; }
+      padding-top: 7px;
+      align-self: center;
+      display: block;
+      margin: auto; }
 
 .formularios {
   background-color: #facacd;
@@ -277,20 +235,25 @@ h2 {
   .contenedorBlog .cuadro, .contenedorBlog .cuadro2 {
     background-color: #facadf;
     border-radius: 14px;
-    padding-left: 200px;
     padding-top: 15px;
     padding-bottom: 15px;
     display: flex;
     align-items: center;
-    margin-bottom: 50px; }
+    margin-bottom: 50px;
+    padding-left: 15px; }
     .contenedorBlog .cuadro .cuadro__titulo, .contenedorBlog .cuadro2 .cuadro__titulo {
       font-size: 1.5rem;
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      text-align: center; }
     .contenedorBlog .cuadro .cuadro__parrafo, .contenedorBlog .cuadro2 .cuadro__parrafo {
       line-height: 28px;
       font-size: 1rem; }
+    .contenedorBlog .cuadro iframe, .contenedorBlog .cuadro2 iframe {
+      width: 320px;
+      height: auto; }
   .contenedorBlog .cuadro2 {
-    background-color: #fabe04; }
+    background-color: #fabe04;
+    text-align: center; }
     .contenedorBlog .cuadro2 .cuadro2__img {
       width: 250px;
       height: auto;
@@ -344,7 +307,7 @@ h2 {
 .contenedorBox {
   height: 350px;
   width: 350px;
-  margin-left: 20px;
+  margin-left: 15%;
   margin-bottom: 20px;
   padding: 10px;
   text-align: center;
@@ -356,7 +319,7 @@ h2 {
 .contenedorBox2 {
   height: 350px;
   width: 350px;
-  margin-left: 20px;
+  margin-left: 15%;
   margin-bottom: 20px;
   padding: 10px;
   text-align: center;
@@ -376,7 +339,41 @@ h2 {
     height: auto; }
   .row .column {
     width: 50%;
-    padding: 20px; } }
+    padding: 20px; }
+  .cuadro, .contenedorBlog .cuadro2 {
+    padding-left: 200px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px; }
+    .cuadro .cuadro__titulo, .contenedorBlog .cuadro2 .cuadro__titulo {
+      font-size: 1.5rem;
+      margin-bottom: 20px; }
+    .cuadro .cuadro__parrafo, .contenedorBlog .cuadro2 .cuadro__parrafo {
+      line-height: 28px;
+      font-size: 1rem; }
+  .contenedorBox {
+    margin-left: 20px; }
+  .contenedorBox2 {
+    margin-left: 20px; }
+  .verde img {
+    width: 1250px;
+    height: auto;
+    display: block;
+    align-self: center; }
+  .aboutUsContenedor {
+    height: 2500px; }
+    .aboutUsContenedor h2 {
+      font-size: 45px;
+      padding-top: 20px; }
+    .aboutUsContenedor p {
+      color: black;
+      padding: 40px;
+      font-size: 25px; }
+    .aboutUsContenedor .verde img {
+      width: 450px;
+      padding-top: 50px; } }
 
 @media only screen and (min-width: 768px) {
   .morkBookstoreTitulo {
@@ -398,18 +395,45 @@ h2 {
     width: 220px; }
   .row .column {
     width: 25%;
-    padding: 20px; } }
-
-.contenedorBooks h2 {
-  font-size: 3rem; }
-
-.contenedorBooks h3 {
-  font-size: 15px; }
-
-.contenedorBooks .tamaño img {
-  width: 190px;
-  height: auto;
-  padding: auto; }
-
-.contenedorBooks .fondo1 {
-  width: 220px; }
+    padding: 20px; }
+  .cuadro, .contenedorBlog .cuadro2 {
+    padding-left: 200px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px; }
+    .cuadro .cuadro__titulo, .contenedorBlog .cuadro2 .cuadro__titulo {
+      font-size: 1.5rem;
+      margin-bottom: 20px; }
+    .cuadro .cuadro__parrafo, .contenedorBlog .cuadro2 .cuadro__parrafo {
+      line-height: 28px;
+      font-size: 1rem; }
+  .contenedorBox {
+    margin-left: 20px; }
+  .contenedorBox2 {
+    margin-left: 20px; }
+  .verde img {
+    width: 1250px;
+    height: auto;
+    display: block;
+    align-self: center; }
+  .aboutUsContenedor {
+    width: 90%;
+    height: 1300px;
+    padding-top: 55px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "header header header header" "main main empy empy" "footer footer footer footer";
+    margin: auto; }
+    .aboutUsContenedor h2 {
+      font-size: 45px;
+      padding-top: 20px; }
+    .aboutUsContenedor p {
+      color: black;
+      padding: 40px;
+      font-size: 25px; }
+    .aboutUsContenedor .verde img {
+      width: 1250px;
+      padding-top: 50px; } }

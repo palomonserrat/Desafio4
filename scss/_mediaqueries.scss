@@ -15,6 +15,68 @@
             padding: 20px;
         }
     }
+
+    //blog
+    .cuadro{
+        padding-left: 200px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 50px;
+
+        .cuadro__titulo {
+            font-size:1.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .cuadro__parrafo {
+            line-height: 28px;
+            font-size:1rem;
+        }
+
+    }
+
+    //blog2
+    .contenedorBox{
+        margin-left: 20px;
+    }
+
+    .contenedorBox2{
+        margin-left: 20px;
+    }
+
+    //about us
+    .verde{
+        img{
+            width: 1250px;
+            height: auto;
+            display: block;
+            align-self: center;
+        }
+    }
+
+    .aboutUsContenedor{
+        height: 2500px;
+
+        h2{
+            font-size: 45px;
+            padding-top: 20px;
+        }
+    
+        p{
+            color:black;
+            padding: 40px;
+            font-size: 25px;
+        }
+
+        .verde{
+            img{
+                width: 450px;
+                padding-top: 50px;
+            }
+        }
+    }
 }
 
 @media only screen and (min-width: 768px){
@@ -60,25 +122,78 @@
         }
     }
 
-}
+    //blog
+    .cuadro{
+        padding-left: 200px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 50px;
 
-//shop
+        .cuadro__titulo {
+            font-size:1.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .cuadro__parrafo {
+            line-height: 28px;
+            font-size:1rem;
+        }
 
-.contenedorBooks{
-    h2{
-        font-size: 3rem;
     }
-    h3{
-        font-size: 15px;
+
+    //blog2
+    .contenedorBox{
+        margin-left: 20px;
     }
-    .tamaño{
+
+    .contenedorBox2{
+        margin-left: 20px;
+    }
+
+    //about us
+    .verde{
         img{
-            width: 190px;
+            width: 1250px;
             height: auto;
-            padding: auto;
+            display: block;
+            align-self: center;
+        }
+    }
+
+    .aboutUsContenedor{
+        width: 90%;
+        height: 1300px;
+        padding-top: 55px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "header header header header"
+        "main main empy empy"
+        "footer footer footer footer";
+        margin: auto;
+
+        h2{
+            font-size: 45px;
+            padding-top: 20px;
+        }
+    
+        p{
+            color:black;
+            padding: 40px;
+            font-size: 25px;
+        }
+
+        .verde{
+            img{
+                width: 1250px;
+                padding-top: 50px;
             }
         }
-        .fondo1{
-            width: 220px;
-        }
+    }
+
 }
+
+
