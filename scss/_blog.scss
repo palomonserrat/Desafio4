@@ -8,26 +8,26 @@ $ancho: 500px;
     .cuadro{
         background-color: #facadf;
         border-radius: 14px;
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
         display: flex;
         align-items: center;
-        margin-bottom: 50px;
-        padding-left: 15px;
+        margin-bottom: 3rem;
+        padding-left: 1rem;
 
         .cuadro__titulo {
             font-size:1.5rem;
-            margin-bottom: 20px;
+            margin-bottom: 1.25rem;
             text-align: center;
         }
         
         .cuadro__parrafo {
-            line-height: 28px;
+            line-height: 1.75rem;
             font-size:1rem;
         }
 
         iframe{
-            width: 320px;
+            width: 20rem;
             height: auto
         }
 
@@ -41,12 +41,12 @@ $ancho: 500px;
         .cuadro2__img {
             width: $ancho/2;
             height: auto;
-            margin-right: 30px;
+            margin-right: 1.8rem;
         }
     
         .boton{
-            height: 60px;
-            padding: 20px;
+            height: 3.75rem;
+            padding: 1.25rem;
             background-color: #fc7289;
             color: white;
             display: inline-block;

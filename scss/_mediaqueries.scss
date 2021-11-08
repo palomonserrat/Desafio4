@@ -3,35 +3,32 @@
 @media only screen and (min-width: 576px){
     .tamaño{ /*index y shop*/
         height: auto;
-        width: 250px;
+        width: 15.6rem;
     }
     .bestSellersLibros{
-        width: 200px;
+        width: 12.5rem;
         height: auto;
     }
     .row{
         .column{
             width: 50%;
-            padding: 20px;
+            padding: 1.25rem;
         }
     }
 
     //blog
     .cuadro{
-        padding-left: 200px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        display: flex;
-        align-items: center;
-        margin-bottom: 50px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-bottom: 3.5rem;
 
         .cuadro__titulo {
             font-size:1.5rem;
-            margin-bottom: 20px;
+            margin-bottom: 1.25rem;
         }
         
         .cuadro__parrafo {
-            line-height: 28px;
+            line-height: 1.75rem;
             font-size:1rem;
         }
 
@@ -39,44 +36,13 @@
 
     //blog2
     .contenedorBox{
-        margin-left: 20px;
+        margin-left: 9.3rem;
     }
 
     .contenedorBox2{
-        margin-left: 20px;
+        margin-left: 9.3rem;
     }
 
-    //about us
-    .verde{
-        img{
-            width: 1250px;
-            height: auto;
-            display: block;
-            align-self: center;
-        }
-    }
-
-    .aboutUsContenedor{
-        height: 2500px;
-
-        h2{
-            font-size: 45px;
-            padding-top: 20px;
-        }
-    
-        p{
-            color:black;
-            padding: 40px;
-            font-size: 25px;
-        }
-
-        .verde{
-            img{
-                width: 450px;
-                padding-top: 50px;
-            }
-        }
-    }
 }
 
 @media only screen and (min-width: 768px){
@@ -84,33 +50,33 @@
         font-size: 4.5rem;
     }
     .logo{
-        width: 200px;
+        width: 12.5rem;
         height: auto;
     }
     .navHeader{
         li{
             a{
-                font-size: 20px; 
+                font-size: 1.25rem; 
             }
         }
     }
 
-    .bestSellers{
+    .mainBooks{
         h2{
             font-size: 3rem;
         }
         h3{
-            font-size: 15px;
+            font-size: 1rem;
         }
         .tamaño{
             img{
-                width: 190px;
+                width: 11.8rem;
                 height: auto;
                 padding: auto;
             }
         }
         .fondo1{
-            width: 220px;
+            width: 13.75rem;
         }
     }
 
@@ -118,26 +84,26 @@
     .row{
         .column{
             width: 25%;
-            padding: 20px;
+            padding: 1.25rem;
         }
     }
 
     //blog
     .cuadro{
-        padding-left: 200px;
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-left: 12.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
         display: flex;
         align-items: center;
-        margin-bottom: 50px;
+        margin-bottom: 3rem;
 
         .cuadro__titulo {
             font-size:1.5rem;
-            margin-bottom: 20px;
+            margin-bottom: 1.25rem;
         }
         
         .cuadro__parrafo {
-            line-height: 28px;
+            line-height: 1.27rem;
             font-size:1rem;
         }
 
@@ -145,27 +111,18 @@
 
     //blog2
     .contenedorBox{
-        margin-left: 20px;
+        margin-left: 1.25rem;
     }
 
     .contenedorBox2{
-        margin-left: 20px;
+        margin-left: 1.25rem;
     }
 
     //about us
-    .verde{
-        img{
-            width: 1250px;
-            height: auto;
-            display: block;
-            align-self: center;
-        }
-    }
-
     .aboutUsContenedor{
         width: 90%;
-        height: 1300px;
-        padding-top: 55px;
+        height: 75rem;
+        padding-top: 3.5rem;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -174,22 +131,56 @@
         "main main empy empy"
         "footer footer footer footer";
         margin: auto;
-
+        
+    
         h2{
-            font-size: 45px;
-            padding-top: 20px;
+            text-align: center;
+            font-size: 1.5rem;
+            padding-top: 0.6rem;
+            color: rgb(0, 0, 0);
+            text-transform: capitalize;
         }
     
         p{
             color:black;
-            padding: 40px;
-            font-size: 25px;
+            padding: 0.3rem;
+            font-size: 1.12rem;
         }
-
+    
+        .hijo{
+            border: solid 1px black;
+            padding: 5px;
+            border-radius: 20px;
+            margin: 5px;
+        }
+    
+        .azul{
+            background-color:#a6d0eb;
+            grid-area: header;
+        }
+        
+        .rosa{
+            background-color: #fc7289;
+            grid-area: main;
+        }
+        
+        
+        .violeta{
+            background-color:  #c21090;
+            grid-area: empy;
+        }
+        
         .verde{
+            background-color:#397f47;
+            grid-area: footer;
+    
             img{
-                width: 1250px;
-                padding-top: 50px;
+                width: 78rem;
+                height: auto;
+                display: block;
+                align-self: center;
+                padding-top: 2rem;
+                padding-bottom: 2rem;
             }
         }
     }

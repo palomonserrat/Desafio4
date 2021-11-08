@@ -15,116 +15,112 @@
     <title>My Account - Morkstar Bookstore</title>
 </head>
 <body>
-    <header>
-      <nav class="navbar navHeader navbar navbar-expand-lg navbar-light" style="background-color: #024672 ;">
-        <div class="container-fluid">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="aboutus.html">About us</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Account
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="myaccount.html">Sign in</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="myaccount.html">Create account</a></li>
-                </ul>
-            </li>
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
-        </div>
-    </nav>
-        <h1>My Account</h1>
-    </header>
-
-    <main class="mainAccount" >
-        <section class="formularios"> <!--formularios (sing in y create account)-->
-            <h2>sign in</h2>
-            <form class="row g-3">
-                <div class="col-md-4">
-                  <label for="validationDefault01" class="form-label">First name</label>
-                  <input type="text" class="form-control" id="validationDefault01" value="Name" required>
-                </div>
-                <div class="col-md-4">
-                  <label for="validationDefault02" class="form-label">Last name</label>
-                  <input type="text" class="form-control" id="validationDefault02" value="Last name" required>
-                </div>
-                <div class="col-md-4">
-                  <label for="validationDefaultUsername" class="form-label">Username</label>
-                  <div class="input-group">
-                    <span class="input-group-text" id="inputGroupPrepend2">@</span>
-                    <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
-                  </div>
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="col-12">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-                    <label class="form-check-label" for="invalidCheck2">
-                      Agree to terms and conditions
-                    </label>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <button class="btn btn-primary btnForm" type="submit">Submit form</button>
-                </div>
-              </form>
+  <header>
+    <nav class="navbar navHeader navbar navbar-expand-lg navbar-light" style="background-color: #024672 ;">
+      <div class="container-fluid">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutus.html">About us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Account
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="myaccount.html">Sign in</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="myaccount.html">Create account</a></li>
+          </ul>
+        </li>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
-        </section>
+      </div>
+  </nav>
+      <h1>My Account</h1>
+  </header>
 
-        <section class="formularios">       
-            <h2>join</h2>
-            <form>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" class="btn btn-primary btnForm">Submit</button>
-            </form>
-        </section>
-    </main>
+  <main class="mainAccount" >
+    <section class="formularios"> <!--formularios (sing in y create account)-->
+      <h2>sign in</h2>
+      <form class="row g-3">
+        <div class="col-md-4">
+          <label for="validationDefault01" class="form-label">First name</label>
+          <input type="text" class="form-control" id="validationDefault01" value="Name" required>
+        </div>
+        <div class="col-md-4">
+          <label for="validationDefault02" class="form-label">Last name</label>
+          <input type="text" class="form-control" id="validationDefault02" value="Last name" required>
+        </div>
+        <div class="col-md-4">
+          <label for="validationDefaultUsername" class="form-label">Username</label>
+          <div class="input-group">
+            <span class="input-group-text" id="inputGroupPrepend2">@</span>
+            <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+            <label class="form-check-label" for="invalidCheck2">
+              Agree to terms and conditions
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary btnForm" type="submit">Submit form</button>
+        </div>
+      </form>
+    </section>
 
-    <footer>
-      <section class="footerContenedor" >
-        <div class="footerDiv">
-              <a class="footerDiv__link" href="index.html">Home</a>
-              <a class="footerDiv__link" href="shop.html">Shop</a>
-              <h4 class="footerDiv__titulo"> <strong>User info</strong></h4>
-              <a class="footerDiv__link" href="myaccount.html">create an account</a>
-              <a class="footerDiv__link" href="myaccount.html">sign in</a>
-        </div>
-        
-        <div class="footerDiv">
-              <h4 class="footerDiv__titulo"><strong>Morkstar Bookstore</strong></h4>
-              <a class="footerDiv__link" href="aboutus.html">About us</a>
-              <a class="footerDiv__link" href="help.html">Help</a>
-              <a class="footerDiv__link" href="blog.html">Blog</a>
-        </div>
-        <div class="footerDiv">
-              <h4 class="footerDiv__titulo"><strong>Let´s keep in touch</strong></h4>
-              <a target="blank" class="footerDiv__img" href="https://www.instagram.com/morkstarbookstore/"><img class="footerDiv__redes" src="multimedia/instagram.png" alt="instagram morkstar"></a>
-              <a target="blank" class="footerDiv__img" href="https://www.facebook.com/morkstarbookstore/"><img class="footerDiv__redes" src="multimedia/facebook.png" alt="facebook morkstar"></a>
-       </div>
-      </section>
+    <section class="formularios">       
+        <h2>join</h2>
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary btnForm">Submit</button>
+        </form>
+    </section>
+  </main>
+  <footer>
+    <section class="footerContenedor" >
+      <div class="footerDiv">
+        <a class="footerDiv__link" href="index.html">Home</a>
+        <a class="footerDiv__link" href="shop.html">Shop</a>
+        <h4 class="footerDiv__titulo"> <strong>User info</strong></h4>
+        <a class="footerDiv__link" href="myaccount.html">My Account</a>
+      </div>
+      <div class="footerDiv">
+        <h4 class="footerDiv__titulo"><strong>Morkstar Bookstore</strong></h4>
+        <a class="footerDiv__link" href="aboutus.html">About us</a>
+        <a class="footerDiv__link" href="help.html">Help</a>
+        <a class="footerDiv__link" href="blog.html">Blog</a>
+      </div>
+      <div class="footerDiv">
+        <h4 class="footerDiv__titulo"><strong>Let´s keep in touch</strong></h4>
+        <a target="blank" class="footerDiv__img" href="https://www.instagram.com/morkstarbookstore/"><img class="footerDiv__redes" src="multimedia/instagram.png" alt="instagram morkstar"></a>
+        <a target="blank" class="footerDiv__img" href="https://www.facebook.com/morkstarbookstore/"><img class="footerDiv__redes" src="multimedia/facebook.png" alt="facebook morkstar"></a>
+     </div>
+    </section>
   </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 </html>

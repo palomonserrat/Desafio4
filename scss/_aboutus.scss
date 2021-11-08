@@ -1,21 +1,9 @@
 .aboutUsContenedor{
-    width: 90%;
-    height: 1200px;
-    padding-top: 55px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas:
-    "header header header header"
-    "main main empy empy"
-    "footer footer footer footer";
-    margin: auto;
     
-
     h2{
         text-align: center;
-        font-size: 25px;
-        padding-top: 10px;
+        font-size: 1.5rem;
+        padding-top: 0.6;
         color: rgb(0, 0, 0);
         text-transform: capitalize;
     }
@@ -23,41 +11,38 @@
     p{
         color:black;
         padding: 5px;
-        font-size: 18px;
+        font-size: 1.1rem;
     }
 
     .hijo{
         border: solid 1px black;
         padding: 5px;
-        border-radius: 20px;
-        margin: 5px;
+        border-radius: 1.25rem;
+        margin: 1rem;
     }
 
     .azul{
         background-color:#a6d0eb;
-        grid-area: header;
     }
     
     .rosa{
         background-color: #fc7289;
-        grid-area: main;
     }
     
     
     .violeta{
         background-color:  #c21090;
-        grid-area: empy;
     }
     
     .verde{
         background-color:#397f47;
-        grid-area: footer;
 
         img{
-            width: 400px;
+            width: 25rem;
             height: auto;
             display: block;
-            padding-top: 7px;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
             align-self: center;
             display: block;
             margin: auto;

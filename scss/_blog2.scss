@@ -1,6 +1,6 @@
 
 .contenedorFirstBook{
-    max-width: 1000px;
+    max-width: 62.5rem;
 	width: 90%;
 	margin: 0 auto;
 
@@ -8,21 +8,21 @@
         background-color: #9ec52e;
         border-radius: 14px;
         border: 3px black solid;
-        padding: 20px;
-        margin-bottom: 50px;
+        padding: 1.25rem;
+        margin-bottom: 3rem;
 
         .firstBook__titulo {
             font-size:1.5rem;
-            margin-bottom: 20px;
+            margin-bottom: 1.25rem;
         }
         
         .firstBook__parrafo {
-            line-height: 28px;
+            line-height: 1.75rem;
             font-size:1rem;
         }
 
         .firstBook__imagen{
-            width: 250px;
+            width: 15.6rem;
             height: auto;
         }
 
@@ -37,17 +37,17 @@
         background-color: #a3e5ff;
         border-radius: 14px;
         border: 3px black solid;
-        padding: 20px;
+        padding: 1.25rem;
         margin-bottom: 50px;
 
         .write__titulo {
             font-size:1.5rem;
-            margin-bottom: 20px;
-            margin-top: 20px;
+            margin-bottom: 1.25rem;
+            margin-top: 1.25rem;
         }
         
         .write__parrafo {
-            line-height: 28px;
+            line-height: 1.75rem;
             font-size:1rem;
         }
 
@@ -61,22 +61,21 @@
 
 .contenedorBox{
     @include sizes(350px,350px ); 
-    margin-left: 15%;
-    margin-bottom: 20px;
-    padding: 10px;
+    margin-bottom: 1.25rem;
+    margin-left: 3rem;
+    padding: 0.6rem;
     text-align: center;
     border: solid black 3px;
     background-color: #397f47;
     display: flex;
     display: inline-block;
-    
 }
 
 .contenedorBox2{
     @include sizes(350px,350px ); 
-    margin-left: 15%;
-    margin-bottom: 20px;
-    padding: 10px;
+    margin-left: 3rem;
+    margin-bottom: 1.25rem;
+    padding: 0.6rem;
     text-align: center;
     border: solid black 3px;
     background-color: #397f47;
