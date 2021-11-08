@@ -4,46 +4,35 @@ $ancho: 500px;
     max-width: 1000px;
 	width: 90%;
 	margin: 0 auto;
-
     .cuadro{
         background-color: #facadf;
         border-radius: 14px;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+        padding: 1rem;
         display: flex;
         align-items: center;
         margin-bottom: 3rem;
-        padding-left: 1rem;
-
         .cuadro__titulo {
             font-size:1.5rem;
             margin-bottom: 1.25rem;
             text-align: center;
         }
-        
         .cuadro__parrafo {
             line-height: 1.75rem;
             font-size:1rem;
         }
-
         iframe{
             width: 20rem;
             height: auto
         }
-
     }
-
     .cuadro2{
         @extend .cuadro;
         background-color: #fabe04;
-        text-align: center;
-
         .cuadro2__img {
             width: $ancho/2;
             height: auto;
             margin-right: 1.8rem;
         }
-    
         .boton{
             height: 3.75rem;
             padding: 1.25rem;
@@ -52,10 +41,8 @@ $ancho: 500px;
             display: inline-block;
             text-decoration: none;
         }
-        
         a{
             text-decoration: none;
-    
             &:hover{
                 font-weight: bold;
             }

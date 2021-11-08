@@ -3,13 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-//header
+//general
 body{
     background-color: whitesmoke;
     font-family: 'Sen', sans-serif;
 }
-
 h1{
     color: darkblue;
     font-family: 'Libre Baskerville', serif;
@@ -22,13 +20,11 @@ h2{
     font-family: 'Sen', sans-serif;
     font-size: 2.5rem;
 }
-
 .navHeader{
     background-color: #024672;
     width: 100%;
     margin-top: 0;
     border-radius: 1.25rem;
-
     ul{
         list-style-type: none;
         max-width: 62.5rem;
@@ -36,7 +32,6 @@ h2{
     }
     li{
         display: inline-block;
-
         a{
             text-decoration: none;
             color: #a6d0eb;
@@ -45,7 +40,6 @@ h2{
             position: relative;
             font-size: 1rem;
             padding: 0.6rem;
-
             &:hover{
                 background-color: #a6d0eb;
                 color: hotpink;
@@ -53,7 +47,6 @@ h2{
         }
     }
 }
-
 .morkBookstoreTitulo{
     font-family: 'Pridi', serif;
     color: #024672;
@@ -65,8 +58,7 @@ h2{
     animation-duration: 2s;
     animation-name: aparecer;
     animation-iteration-count: initial;
-
-    @keyframes aparecer { /*titulo*/
+    @keyframes aparecer { 
         0% {
           opacity: 0;
         }
@@ -83,17 +75,13 @@ h2{
     width: 4.6rem;
     margin-bottom: 1.25rem;
 }
-
-//main
 .carousel{
     background-color: #a6d0eb;
     border-radius: 38%;
     margin-top: 1.5rem;
 }
-
 .mainBooks{
     display: flex;
-
     h2{
         font-size: 1.7rem;
         margin-left: 2.8rem;
@@ -101,7 +89,6 @@ h2{
         letter-spacing: 3px;
         color: #397f47;
     }
-
     .contenedor{
         display: flex;
         flex-direction: row-reverse;
@@ -109,11 +96,9 @@ h2{
         justify-content: space-evenly;
         align-items: center;
     }
-    
     .tamaño{
         margin: 10px;
         padding: 10px;
-
         img{
             width: 7.5rem;
             height: auto;
@@ -121,7 +106,6 @@ h2{
             padding: auto;
         }
     }
-
     .fondo1{
         background-color: #a6d0eb;
         border: solid black;
@@ -130,7 +114,6 @@ h2{
         margin: 2rem;
         width: 9rem;
         height: auto;
-
         h3{
             font-family: 'Sen', sans-serif;
             font-size: 0.75rem;
@@ -139,7 +122,6 @@ h2{
         }
     }
 }
-
 .row{
     .column{
         float: left;
@@ -148,31 +130,23 @@ h2{
         margin-bottom: 1.5rem;
         text-align: center;
         font-size: 0.75rem;
-
         h3{
             font-size: 1rem;
         }
     }
-
-
     .primera{
         background-color: #fc7289;
     }
-    
     .segunda{
         background-color: #facadf;
     }
-    
     .tercera{
         background-color: #fc7289;
     }
-    
     .cuarta{
         background-color: #facadf;
     }
 }
-
-//footer
 footer{
     .footerContenedor{
         background-color: rgb(131, 180, 152);
@@ -182,45 +156,32 @@ footer{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-
         .footerDiv{
             width: 33%;
             text-align: center;
-
-
             .footerDiv__titulo{
                 font-size: 0.8rem;
                 padding-top: 0.75rem;
             }
-
             .footerDiv__link{
                 text-decoration: none;
                 color: black;
                 font-size: 0.75rem;
                 padding-top: 0.75rem;
-
-
                 &:hover{
                     color: #024672;
                     font-weight: bold;
                 }
             }
-
             .footerDiv__img{
-
                 .footerDiv__redes{
                     width: 2rem;
-
                     &:hover{
                         width: 2.2rem;
                     }
                 }
-                
             }
-
-        }
-
-        
+        }       
     }
 }
 

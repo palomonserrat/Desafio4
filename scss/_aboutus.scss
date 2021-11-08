@@ -1,5 +1,4 @@
 .aboutUsContenedor{
-    
     h2{
         text-align: center;
         font-size: 1.5rem;
@@ -7,38 +6,30 @@
         color: rgb(0, 0, 0);
         text-transform: capitalize;
     }
-
     p{
         color:black;
         padding: 5px;
         font-size: 1.1rem;
     }
-
     .hijo{
         border: solid 1px black;
         padding: 5px;
         border-radius: 1.25rem;
         margin: 1rem;
     }
-
     .azul{
         background-color:#a6d0eb;
-    }
-    
+    }   
     .rosa{
         background-color: #fc7289;
-    }
-    
-    
+    } 
     .violeta{
         background-color:  #c21090;
-    }
-    
+    } 
     .verde{
         background-color:#397f47;
-
         img{
-            width: 25rem;
+            width: 15rem;
             height: auto;
             display: block;
             padding-top: 0.5rem;

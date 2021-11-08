@@ -1,5 +1,4 @@
 /*media queries*/
-
 @media only screen and (min-width: 576px){
     .tamaño{ /*index y shop*/
         height: auto;
@@ -15,34 +14,27 @@
             padding: 1.25rem;
         }
     }
-
     //blog
     .cuadro{
         padding-top: 1rem;
         padding-bottom: 1rem;
         margin-bottom: 3.5rem;
-
         .cuadro__titulo {
             font-size:1.5rem;
             margin-bottom: 1.25rem;
-        }
-        
+        }      
         .cuadro__parrafo {
             line-height: 1.75rem;
             font-size:1rem;
         }
-
     }
-
     //blog2
     .contenedorBox{
         margin-left: 9.3rem;
     }
-
     .contenedorBox2{
         margin-left: 9.3rem;
     }
-
 }
 
 @media only screen and (min-width: 768px){
@@ -60,7 +52,6 @@
             }
         }
     }
-
     .mainBooks{
         h2{
             font-size: 3rem;
@@ -79,45 +70,25 @@
             width: 13.75rem;
         }
     }
-
-   
     .row{
         .column{
             width: 25%;
             padding: 1.25rem;
         }
     }
-
     //blog
     .cuadro{
-        padding-left: 12.5rem;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        display: flex;
-        align-items: center;
-        margin-bottom: 3rem;
-
-        .cuadro__titulo {
-            font-size:1.5rem;
-            margin-bottom: 1.25rem;
+        div{
+            padding-left: 13rem;
         }
-        
-        .cuadro__parrafo {
-            line-height: 1.27rem;
-            font-size:1rem;
-        }
-
     }
-
     //blog2
     .contenedorBox{
         margin-left: 1.25rem;
     }
-
     .contenedorBox2{
         margin-left: 1.25rem;
     }
-
     //about us
     .aboutUsContenedor{
         width: 90%;
@@ -131,8 +102,6 @@
         "main main empy empy"
         "footer footer footer footer";
         margin: auto;
-        
-    
         h2{
             text-align: center;
             font-size: 1.5rem;
@@ -140,40 +109,32 @@
             color: rgb(0, 0, 0);
             text-transform: capitalize;
         }
-    
         p{
             color:black;
             padding: 0.3rem;
             font-size: 1.12rem;
         }
-    
         .hijo{
             border: solid 1px black;
             padding: 5px;
             border-radius: 20px;
             margin: 5px;
         }
-    
         .azul{
             background-color:#a6d0eb;
             grid-area: header;
         }
-        
         .rosa{
             background-color: #fc7289;
             grid-area: main;
         }
-        
-        
         .violeta{
             background-color:  #c21090;
             grid-area: empy;
         }
-        
         .verde{
             background-color:#397f47;
             grid-area: footer;
-    
             img{
                 width: 78rem;
                 height: auto;
@@ -184,7 +145,6 @@
             }
         }
     }
-
 }
 
 
