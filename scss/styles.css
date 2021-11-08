@@ -18,7 +18,7 @@ h1 {
 h2 {
   color: cornflowerblue;
   font-family: 'Sen', sans-serif;
-  font-size: 2.5rem; }
+  font-size: 2rem; }
 
 .navHeader {
   background-color: #024672;
@@ -189,14 +189,15 @@ footer .footerContenedor {
 .aboutUsContenedor .verde {
   background-color: #397f47; }
   .aboutUsContenedor .verde img {
-    width: 7rem;
+    width: 14rem;
     height: auto;
     display: block;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     align-self: center;
     display: block;
-    margin: auto; }
+    margin: auto;
+    overflow: hidden; }
 
 .formularios {
   background-color: #facacd;
@@ -240,7 +241,7 @@ h2 {
       line-height: 1.75rem;
       font-size: 1rem; }
     .contenedorBlog .cuadro iframe, .contenedorBlog .cuadro2 iframe {
-      width: 20rem;
+      width: 16rem;
       height: auto; }
   .contenedorBlog .cuadro2 {
     background-color: #fabe04; }
@@ -295,21 +296,23 @@ h2 {
     font-size: 1rem; }
 
 .contenedorBox {
-  height: 350px;
-  width: 350px;
+  height: 300px;
+  width: 300px;
   margin-bottom: 1.25rem;
-  margin-left: 3rem;
+  margin-left: 2rem;
   padding: 0.6rem;
   text-align: center;
   border: solid black 3px;
   background-color: #397f47;
   display: flex;
   display: inline-block; }
+  .contenedorBox .box__titulo {
+    font-size: 1.5rem; }
 
 .contenedorBox2 {
-  height: 350px;
-  width: 350px;
-  margin-left: 3rem;
+  height: 300px;
+  width: 300px;
+  margin-left: 2rem;
   margin-bottom: 1.25rem;
   padding: 0.6rem;
   text-align: center;
@@ -317,6 +320,8 @@ h2 {
   background-color: #397f47;
   display: flex;
   display: inline-block; }
+  .contenedorBox2 .box2__titulo {
+    font-size: 1.5rem; }
 
 /*media queries*/
 @media only screen and (min-width: 576px) {
@@ -369,9 +374,23 @@ h2 {
   .cuadro div, .contenedorBlog .cuadro2 div {
     padding-left: 13rem; }
   .contenedorBox {
-    margin-left: 1.25rem; }
+    max-width: 62.5rem;
+    width: 90%;
+    margin-left: 16rem;
+    margin-bottom: 3rem;
+    border-radius: 14px; }
+    .contenedorBox .box {
+      padding: 1.25rem;
+      margin-bottom: 3rem; }
   .contenedorBox2 {
-    margin-left: 1.25rem; }
+    max-width: 62.5rem;
+    width: 90%;
+    margin-left: 16rem;
+    margin-bottom: 3rem;
+    border-radius: 14px; }
+    .contenedorBox2 .box2 {
+      padding: 1.25rem;
+      margin-bottom: 3rem; }
   .aboutUsContenedor {
     width: 90%;
     height: 75rem;

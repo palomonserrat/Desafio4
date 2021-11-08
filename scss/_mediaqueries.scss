@@ -84,11 +84,28 @@
     }
     //blog2
     .contenedorBox{
-        margin-left: 1.25rem;
+        max-width: 62.5rem;
+	    width: 90%;
+	    margin-left: 16rem;
+        margin-bottom: 3rem;
+        border-radius: 14px;
+        .box{
+            padding: 1.25rem;
+            margin-bottom: 3rem;
+        }
     }
     .contenedorBox2{
-        margin-left: 1.25rem;
+        max-width: 62.5rem;
+	    width: 90%;
+	    margin-left: 16rem;
+        margin-bottom: 3rem;
+        border-radius: 14px;
+        .box2{
+            padding: 1.25rem;
+            margin-bottom: 3rem;
+        }
     }
+    
     //about us
     .aboutUsContenedor{
         width: 90%;
