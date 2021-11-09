@@ -348,7 +348,10 @@ h2 {
   .contenedorBox {
     margin-left: 9.3rem; }
   .contenedorBox2 {
-    margin-left: 9.3rem; } }
+    margin-left: 9.3rem; }
+  .verde img {
+    width: 30rem;
+    height: auto; } }
 
 @media only screen and (min-width: 768px) {
   .morkBookstoreTitulo {
